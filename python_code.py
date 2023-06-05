@@ -1,5 +1,13 @@
+#boto3 library to connect python code to aws services 
+import boto3 
+#cv2 library for capturing images for Hand gestures
+import cv2
+from cvzone.HandTrackingModule import HandDetector
+
+# to store instance ids which we create or destroy
 allOs=[]
-import boto3
+
+# create or destroy "ec2 instances"
 ec2 = boto3.resource("ec2",region_name='ap-south-1')
 def myOsLaunch():
     instances = ec2.create_instances(
@@ -18,11 +26,10 @@ def osTerminate():
     osdelete=allOs.pop()
     ec2.instances.filter(InstanceIds=[osdelete]).terminate()
     print("total OS : ",len(allOs))
-import cv2
+
+
+#capturing images and detect hand gestures
 cap=cv2.VideoCapture(0)
-
-from cvzone.HandTrackingModule import HandDetector
-
 detector=HandDetector(maxHands=1)
 while True:
     status,photo=cap.read()
