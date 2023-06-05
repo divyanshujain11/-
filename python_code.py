@@ -15,7 +15,7 @@ def myOsLaunch():
         MinCount=1,
         MaxCount=1,
         InstanceType="t2.micro",
-        SecurityGroupIds=["sg-0abb972efed0502cb"]
+        SecurityGroupIds=["create your own security groups"]
     )
     myId=instances[0].id
     allOs.append(myId)
