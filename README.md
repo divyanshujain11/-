@@ -1,4 +1,4 @@
-# Aws-python-integration-
+# 𝐒𝐜𝐚𝐥𝐢𝐧𝐠 𝐞𝐜𝟐 𝐢𝐧𝐬𝐭𝐚𝐧𝐜𝐞𝐬 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐡𝐞𝐥𝐩 𝐨𝐟 𝐆𝐞𝐬𝐭𝐮𝐫𝐞𝐬
 
 ## when except 2 or 3 fingers up it show "i know 2 or 3 -finger up".
 ![Screenshot_20230605_171202](https://github.com/divyanshujain11/Aws-python-integration-/assets/77712311/3d4f7cc0-0d69-4f4b-b3f7-710fc38e848f)
